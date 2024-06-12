@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 //arquivo Editor.java
 // classe originaria que abriga o Memento, possui o campo texto cujo historico deseja-se manter
  class Editor {
@@ -36,8 +38,6 @@ public Memento criarMemento() {
 
 
 // arquivo Aplicacao.java
-import java.util.Stack;
-
 //classe principal de execucao da aplicacao como um todo
 public class Aplicacao {
 	public static void main(String[] args) {
